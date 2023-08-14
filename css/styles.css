@@ -115,7 +115,6 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     line-height: 1.5; /* 150% */
     letter-spacing: 0.04em;
     cursor: pointer;
-    /*padding: 16px 32px;*/
     /* Style */
     border-radius: 4px;
     border: none;
@@ -369,11 +368,6 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-/*.link_customers:focus {
-    border-color: #404bbf; 
-    color: #404bbf; 
-} */
-
 .link_customers:hover, .link_customers:focus {
     border-color: #404bbf; 
     color: #404bbf;
@@ -387,8 +381,7 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 
 .footer_title_container {
     display: flex;
-    align-items: baseline;
-    
+    align-items: baseline; 
 }
 
 .container-footer {
@@ -413,7 +406,6 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 }
 
 .footer-down-desidn {
-    /* width: 1440px;*/
     height: 312px;
     flex-shrink: 0;
     background: var(--navyblue);
@@ -466,13 +458,62 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 .social_link:hover, .social_link:focus {
     background-color: #31d0aa;
 }
-/*
-.social_link:focus {
-    background-color: #31d0aa; 
-}*/
 
 .social_logo {
     fill: var(--cloud);
+}
+
+.form_input_paragraph {
+    margin-bottom: 16px; 
+    font-weight: 500;
+    font-size: 16px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.form_input_text {
+    display: flex;
+}
+
+.form_input_tab {
+    gap: 24px;
+}
+
+.email_text {
+    width: 264px; 
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px; 
+    line-height: 1.5;
+    letter-spacing: 0.04em; 
+    padding-left: 16px; 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); 
+    border-radius: 4px; 
+    color: #ffffff;
+}
+
+.email_text::placeholder {
+    color: #ffffff;
+}
+
+.form_input_button {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px; 
 }
 
 /*------------------------------portfolio-------------------------------*/
@@ -503,8 +544,6 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 .navigation {
     display: flex;
     align-items: center;
-    /*gap: 76px;
-    margin-left: 156px;*/
 }
 
 .header_container {
@@ -514,11 +553,6 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 }
 
 .container {
-    /*display: flex;
-    width: 1440px;
-    height: 72px;
-    align-items: center;
-    flex-shrink: 0;*/
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
@@ -559,7 +593,6 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 .title-adress {
     font-style: normal;
     margin-left: auto;
-    /*margin-right: 156px;*/
 }
 
 .title-adress-list {
