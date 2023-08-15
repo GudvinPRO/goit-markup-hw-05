@@ -478,6 +478,7 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 
 .form_input_text {
     /*display: flex;*/
+    gap: 24px;
 }
 
 .form_input_tab {
