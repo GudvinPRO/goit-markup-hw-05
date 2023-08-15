@@ -463,6 +463,10 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     fill: var(--cloud);
 }
 
+.form_input {
+    margin-left: 80px;
+}
+
 .form_input_paragraph {
     margin-bottom: 16px; 
     font-weight: 500;
@@ -473,10 +477,11 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 }
 
 .form_input_text {
-    display: flex;
+    /*display: flex;*/
 }
 
 .form_input_tab {
+    display: flex;
     gap: 24px;
 }
 
@@ -518,6 +523,7 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 
 .form_button_logo {
     margin-left: 16px; 
+    fill: #E7E9FC;
 }
 
 /*------------------------------portfolio-------------------------------*/
