@@ -869,11 +869,13 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 
 .form_input_user:focus {
     border-color: #4D5AE5;
+}
+
+.form_input_user:focus + .form_logo_user {
     fill: #4D5AE5;
 }
 
 .form_logo_user {
-
 }
 
 .form_logo_user {
