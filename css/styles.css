@@ -900,9 +900,10 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     outline: transparent;
     resize: none; 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    padding: 8px 16px; 
 }
 
-.text_input_user:hover {
+.text_input_user:focus {
     border-color: #4D5AE5;
 }
 
