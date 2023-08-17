@@ -916,6 +916,30 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 
 input[type="checkbox"]:checked + label .user-privacy-policy {
     background-color: var(--blue);
+    border: none;
+    fill: var(--cloud);
+}
+
+.user-privacy-link {
+    color: var(--iris);
+}
+
+.user-button-input {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none; 
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0 auto;  
 }
 
 .user-privacy-text {
