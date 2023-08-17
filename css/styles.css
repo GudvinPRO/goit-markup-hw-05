@@ -40,6 +40,7 @@ body {
     --slate: #434455;
     --white: #FFFFFF;
     --grey: #8e8f99;
+    --blue: #404bbf;
 }
 
 .list {
@@ -482,8 +483,6 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 }
 
 .form_input_tab {
-    /*display: flex;
-    gap: 24px;*/
 }
 
 .email_text {
@@ -498,6 +497,7 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); 
     border-radius: 4px; 
     color: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
 }
 
 .email_text::placeholder {
@@ -912,6 +912,10 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 }
 
 .user-privacy {  
+}
+
+input[type="checkbox"]:checked + label {
+    background-color: var(--blue);
 }
 
 .user-privacy-text {
