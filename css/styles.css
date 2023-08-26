@@ -79,15 +79,24 @@ body {
 .main_container {
 }
 
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+
 .main-board {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
-rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+    rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     max-width: 1440px;
+    padding: 188px 0; 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
-    flex-shrink: 0;
-    padding: 188px 0
+    flex-shrink: 0; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 .main-board-title {
@@ -561,12 +570,6 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     display: flex;
     align-items: center;
     height: 72px;
-}
-
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px 0 15px;
 }
 
 .title-list {
