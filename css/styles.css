@@ -417,7 +417,6 @@ body {
 }
 
 .footer-down-desidn {
-    height: 312px;
     flex-shrink: 0;
     background: var(--navyblue);
     padding: 100px 0 
@@ -426,7 +425,6 @@ body {
 .footer-down-paragraph {
     color: var(--cloud);
     width: 264px;
-    padding-top: 18px;
     /* Body */
     font-family: "Roboto", sans-serif;
     font-size: 16px;
