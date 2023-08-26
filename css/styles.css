@@ -136,7 +136,7 @@ body {
     height: 56px;
 }
 
-.main-board-button:hover, .main-board-button:focus {
+.butstyle:hover, .butstyle:focus {
     background-color: #404BBF;
 } 
 
@@ -417,7 +417,6 @@ body {
 }
 
 .footer-down-desidn {
-    flex-shrink: 0;
     background: var(--navyblue);
     padding: 100px 0 
 }
@@ -709,8 +708,6 @@ body {
 
 .list_menu_images {
     width: calc((100% - 48px) / 3); 
-    border: 1px solid var(--cornflower);
-    background: var(--white);
 }
 
 .list-content {
@@ -778,9 +775,6 @@ body {
     line-height: 1.5; 
     letter-spacing: 0.02em;
     color: #434455;
-    padding-top: 8px;
-    padding-left: 16px;
-    padding-bottom: 32px;
 }
 
 .body-images-menu {
