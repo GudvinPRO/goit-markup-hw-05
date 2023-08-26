@@ -61,6 +61,7 @@ body {
     font-weight: 500;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
+    display: block;
 }
 
 .title-contacts {
@@ -905,6 +906,7 @@ body {
     resize: none; 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     padding: 8px 16px; 
+    display: block;
 }
 
 .text_input_user:focus {
@@ -987,6 +989,7 @@ input[type="checkbox"]:checked + label .user-privacy-policy {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
 .privacy-policy-vector {
