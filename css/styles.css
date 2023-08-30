@@ -606,14 +606,16 @@ body {
     transition: transform 200ms linear;
 }
 
+.current {
+    color: #404bbf; 
+}
+
 .title-list-link:hover:after, 
 .title-list-link:focus:after, 
 .title-list-link.current:after {
     /* opacity: 1; */
     transform: scale(1);
 }
-
-
 
 .title-adress {
     font-style: normal;
