@@ -578,12 +578,11 @@ body {
 }
 
 .title-list {
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
     line-height: 1.5; 
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em; */
 }
 
 .title-list-link:hover, .title-list-link:focus {
